@@ -1,0 +1,151 @@
+            @font-face {
+    font-family: og;
+    src: url(./dinneuzeitgrotesk_n7.2e3a6dec0d428cd2d2453b96ef3acb526d6f681d\ \(4\).ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    overflow-x: hidden;
+}
+.nev{
+    display: flex;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    
+}
+.imag img{  
+    margin-top: 11%;
+    margin-left: 22%;
+    width: 160px;
+    
+}
+.para1{
+    color:white;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left:75px; 
+    margin-top: 4px;   
+}
+.para1>p{
+    font-family: og;
+    font-size: 15px;
+}
+.para2{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-style: normal;
+    margin-left: 220px;
+    margin-top: 4px;
+    font-size: 13px;
+}
+.para2>p{
+    font-family:og ;
+    
+}
+.main{
+  width: 100vw; 
+  height: fit-content;
+  overflow: hidden;
+}
+.card{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    height: 28vh;
+    
+}
+.card>h2{
+    font-family: og;
+}
+.row{
+    width: 100vw;
+    overflow-x: hidden;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 1vw 0;
+}
+.card1{
+    width: 30vw;
+    height: 80vh;
+    color: black;
+   
+}
+.container{
+    height: 80%;
+    color: aqua;
+    width: 100%;
+  
+    overflow: hidden;
+
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.card1 h2{
+    font-family: og;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.card2 h4{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 13vw;
+    padding: 16px;
+     font-size: 13px;
+    font-family: og;
+    transition: all ease 0.5s;
+}
+.card2>h4:hover{
+    background-color: #fff;
+    color: black;
+}
+.card3{
+    color: white;
+    background-color: black;
+    display: flex;
+    height: 45vh;
+    margin-top: 9vh;   
+    width: 100%;
+  
+}
+.take-off{
+    display: flex;
+    margin-left: 80vh;
+    margin-top: 13vh;   
+    gap: 21px;
+   font-size: 16pX;
+  
+}
+.spacex{
+    color: grey;
+    display: flex;
+    align-items: center;
+   margin-left: -120vh;
+   margin-top: 170px;
+}
